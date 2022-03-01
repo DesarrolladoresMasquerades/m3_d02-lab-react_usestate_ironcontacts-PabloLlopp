@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  margin: 20px;
 }
 
 .App-logo {
@@ -35,4 +36,54 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.App img {
+  width: 100px;
+  margin: 20px;
+  border: 5px solid pink;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  border: 2px solid black;
+  color: white;
+}
+
+.table {
+  background-color: #2a2d36;
+}
+
+.cell {
+  box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.596);
+  
+}
+
+.btn {
+  margin: 10px;
+  border: none;
+  padding: 10px 25px;
+  box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.596);
+  background-color: rgb(64, 92, 119);
+  color: white;
+}
+
+.btn-delete {
+  margin: 10px;
+  border: none;
+  padding: 10px 25px;
+  box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.596);
+  background-color: rgb(129, 35, 6);
+  color: white;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.btn-delete:hover {
+  transform: scale(1.1);
+  cursor: pointer;
 }
